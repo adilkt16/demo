@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+body {
+  font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #1c2c40;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-weight: 400;
+}
+
+input,
+textarea,
+select {
+  font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: #1c2c40;
+}
+
+a:hover,
+.submit:hover {
+  filter: alpha(opacity=85);
+  -moz-opacity: 0.85;
+  -khtml-opacity: 0.85;
+  opacity: 0.85;
+}
+
+.thumb {
+  display: block;
+}
+
+.thumb img {
+  display: block;
+  width: 100%;
+}
+
+p {
+  line-height: 1.6em;
+  font-size: 16px;
+  font-family: "Circular-Std-Regular", Arial;
+  font-weight: 400;
+}
+
+.hidden {
+  display: none;
+}
+
+br.clear {
+  clear: both;
+  line-height: 0;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+@font-face {
+  font-family: "Circular-Std-Regular";
+  src: url("../fonts/CircularStd-Regular.woff2") format("woff2");
+  src: url("../fonts/CircularStd-Regular.woff") format("woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circular-Std-Bold";
+  src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+  src: url("../fonts/CircularStd-Bold.woff") format("woff");
+  font-style: normal;
+}
+
+::-webkit-input-placeholder {
+  color: #d3cfcb;
+}
+
+:-ms-input-placeholder {
+  color: #d3cfcb;
+}
+
+::-ms-input-placeholder {
+  color: #d3cfcb;
+}
+
+::placeholder {
+  color: #d3cfcb;
+}
+
+#home {
+  background: url(../images/bg.png) no-repeat;
+  min-height: 100vh;
+}
+
+#home header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 30px;
+}
+
+#home header div.left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#home header div.left h1, #home header div.left #spotlight p, #home #spotlight header div.left p {
+  margin-right: 50px;
+}
+
+#home header div.left h1 a, #home header div.left #spotlight p a, #home #spotlight header div.left p a {
+  width: 60px;
+  display: block;
+}
+
+#home header div.left h1 a img, #home header div.left #spotlight p a img, #home #spotlight header div.left p a img {
+  display: block;
+  width: 100%;
+}
+
+#home header div.left nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#home header div.left nav ul li {
+  width: 33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 20px;
+}
+
+#home header div.left nav ul li a {
+  color: #dfdfdf;
+  font-weight: bolder;
+  font-style: bolder;
+}
+
+#home header div.right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#home header div.right ul li a {
+  color: #fff;
+  font-weight: bolder;
+}
+
+#home header div.right ul li a.button {
+  color: #fff;
+  background: #2dca73;
+  padding: 12px 24px;
+  font-weight: bolder;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+#home #spotlight {
+  height: 88vh;
+  vertical-align: center;
+}
+
+#home #spotlight h1, #home #spotlight p {
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 42px;
+  font-weight: bolder;
+  margin-top: 150px;
+  line-height: 50px;
+}
+
+#home #spotlight p {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+#home #spotlight section.top {
+  padding: 10px;
+  background: #fff;
+  width: 500px;
+  margin: 70px auto 0;
+}
+
+#home #spotlight section.top form {
+  background: #fff;
+  padding: 6px 3px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #2dca73;
+  border-radius: 10px;
+}
+
+#home #spotlight section.top form input.sear {
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px 20px;
+  background: #2dca73;
+}
+/*# sourceMappingURL=style.css.map */
